@@ -12,6 +12,7 @@ RUN apt-get update \
         libglib2.0-dev \
         libfdt-dev \
         libpixman-1-dev \
+        libmount-devel \
         zlib1g-dev \
  && rm /usr/local/sbin/unminimize
 
