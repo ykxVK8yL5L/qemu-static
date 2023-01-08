@@ -1,6 +1,6 @@
 #syntax=docker/dockerfile:1.4.3
 
-FROM ubuntu:22.04@sha256:20fa2d7bb4de7723f542be5923b06c4d704370f0390e4ae9e1c833c8785644c1 AS build
+FROM ubuntu:22.04@sha256:27cb6e6ccef575a4698b66f5de06c7ecd61589132d5a91d098f7f3f9285415a9 AS build
 
 ENV DEBIAN_FRONTEND=non-interactive
 RUN apt-get update \
